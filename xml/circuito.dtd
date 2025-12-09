@@ -1,0 +1,46 @@
+<!ELEMENT circuito (nombre, longitudCircuito, anchuraMedia, fecha, hora, numVueltas, localidad, pais, nombrePatrocinador, referencias, galeriaFotos, galeriaVideos, puntoOrigen, puntosAnonimos, ganador, clasificacion)>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT longitudCircuito (#PCDATA)>
+<!ATTLIST longitudCircuito unidades CDATA #REQUIRED>
+
+<!ELEMENT anchuraMedia (#PCDATA)>
+<!ATTLIST anchuraMedia unidades CDATA #REQUIRED>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT numVueltas (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT nombrePatrocinador (#PCDATA)>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT galeriaFotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+
+<!ELEMENT galeriaVideos (video+)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT puntoOrigen (punto)>
+<!ELEMENT punto (longitud,latitud,altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+
+<!ELEMENT puntoAnonimo (puntos)>
+<!ATTLIST puntoAnonimo distancia CDATA #REQUIRED>
+<!ATTLIST puntoAnonimo sector CDATA #REQUIRED>
+
+<!ELEMENT puntos (punto+)>
+<!ELEMENT sector (#PCDATA)>
+
+<!ELEMENT ganador (nombrePiloto, tiempo)>
+<!ELEMENT nombrePiloto (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+
+<!ELEMENT clasificacion (primero, segundo, tercero)>
+<!ELEMENT primero (#PCDATA)>
+<!ELEMENT segundo (#PCDATA)>
+<!ELEMENT tercero (#PCDATA)>

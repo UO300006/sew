@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<circuito
+xmlns="http://www.uniovi.es"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.uniovi.es circuito.xsd"
+>
+    <nombre>Circuit de Barcelona-Catalunya</nombre>
+    <longitudCircuito unidades="metros">4657</longitudCircuito>
+    <anchuraMedia unidades="metros">12</anchuraMedia>
+    <fecha>7 Septiembre</fecha>
+    <hora>14:00H</hora>
+    <numVueltas>24</numVueltas>
+    <localidad>Montmeló</localidad>
+    <pais>España</pais>
+    <nombrePatrocinador>Alpine</nombrePatrocinador>
+
+    <referencias>
+        <referencia>https://www.circuitcat.com/es/</referencia>
+        <referencia>https://www.motogp.com/es/news/2025/09/02/welcome-to-the-catalan-gp/757885</referencia>
+        <referencia>https://www.motorsport.com/motogp/results/2025/catalan-gp-654370/</referencia>
+    </referencias>
+
+    <galeriaFotos>
+        <foto>multimedia/mapa2D.jpg</foto>
+        <foto>multimedia/vistaAerea.webp</foto>
+        <foto>multimedia/vistaAereaMasAlta.webp</foto>
+    </galeriaFotos>
+
+    <galeriaVideos>
+        <video>multimedia/circuito.mp4</video>
+    </galeriaVideos>
+
+    <puntoOrigen>
+        <punto>
+            <longitud>2.1540</longitud>
+            <latitud>41.3412</latitud>
+            <altitud>120</altitud>
+        </punto>
+    </puntoOrigen>
+
+    <!-- ========================= -->
+    <!--    PUNTOS ANÓNIMOS        -->
+    <!-- ========================= -->
+
+    <puntosAnonimos>
+        <puntoAnonimo sector="Sector 1" distancia="1503">
+            <puntos>
+                <punto><longitud>2.1540</longitud><latitud>41.3412</latitud><altitud>123</altitud></punto>
+                <punto><longitud>2.1548</longitud><latitud>41.3421</latitud><altitud>112</altitud></punto>
+                <punto><longitud>2.1523</longitud><latitud>41.3352</latitud><altitud>113</altitud></punto>
+                <punto><longitud>2.1520</longitud><latitud>41.3353</latitud><altitud>123</altitud></punto>
+                <punto><longitud>2.1519</longitud><latitud>41.3353</latitud><altitud>113</altitud></punto>
+                <punto><longitud>2.1518</longitud><latitud>41.3353</latitud><altitud>114</altitud></punto>
+                <punto><longitud>2.1519</longitud><latitud>41.3353</latitud><altitud>113</altitud></punto>
+                <punto><longitud>2.1514</longitud><latitud>41.3351</latitud><altitud>119</altitud></punto>
+                <punto><longitud>2.1513</longitud><latitud>41.3351</latitud><altitud>121</altitud></punto>
+                <punto><longitud>2.1511</longitud><latitud>41.3351</latitud><altitud>123</altitud></punto>
+                <punto><longitud>2.1510</longitud><latitud>41.3351</latitud><altitud>124</altitud></punto>
+                <punto><longitud>2.1509</longitud><latitud>41.3352</latitud><altitud>125</altitud></punto>
+                <punto><longitud>2.1508</longitud><latitud>41.3353</latitud><altitud>126</altitud></punto>
+                <punto><longitud>2.1507</longitud><latitud>41.3354</latitud><altitud>126</altitud></punto>
+                <punto><longitud>2.1507</longitud><latitud>41.3355</latitud><altitud>127</altitud></punto>
+                <punto><longitud>2.1508</longitud><latitud>41.3357</latitud><altitud>127</altitud></punto>
+                <punto><longitud>2.1509</longitud><latitud>41.3359</latitud><altitud>128</altitud></punto>
+                <punto><longitud>2.1514</longitud><latitud>41.3405</latitud><altitud>132</altitud></punto>
+            </puntos>
+        </puntoAnonimo>
+
+        <puntoAnonimo sector="Sector 2" distancia="1792">
+            <puntos>
+                <punto><longitud>2.1514</longitud><latitud>41.3405</latitud><altitud>132</altitud></punto>
+                <punto><longitud>2.1515</longitud><latitud>41.3406</latitud><altitud>132</altitud></punto>
+                <punto><longitud>2.1517</longitud><latitud>41.3406</latitud><altitud>132</altitud></punto>
+                <punto><longitud>2.1518</longitud><latitud>41.3405</latitud><altitud>133</altitud></punto>
+                <punto><longitud>2.1519</longitud><latitud>41.3404</latitud><altitud>133</altitud></punto>
+                <punto><longitud>2.1519</longitud><latitud>41.3402</latitud><altitud>133</altitud></punto>
+                <punto><longitud>2.1518</longitud><latitud>41.3401</latitud><altitud>133</altitud></punto>
+                <punto><longitud>2.1514</longitud><latitud>41.3356</latitud><altitud>129</altitud></punto>
+                <punto><longitud>2.1514</longitud><latitud>41.3356</latitud><altitud>127</altitud></punto>
+                <punto><longitud>2.1514</longitud><latitud>41.3355</latitud><altitud>126</altitud></punto>
+                <punto><longitud>2.1515</longitud><latitud>41.3355</latitud><altitud>127</altitud></punto>
+                <punto><longitud>2.1516</longitud><latitud>41.3355</latitud><altitud>123</altitud></punto>
+                <punto><longitud>2.1522</longitud><latitud>41.3357</latitud><altitud>116</altitud></punto>
+                <punto><longitud>2.1523</longitud><latitud>41.3357</latitud><altitud>115</altitud></punto>
+                <punto><longitud>2.1525</longitud><latitud>41.3358</latitud><altitud>114</altitud></punto>
+                <punto><longitud>2.1527</longitud><latitud>41.3402</latitud><altitud>115</altitud></punto>
+                <punto><longitud>2.1528</longitud><latitud>41.3403</latitud><altitud>114</altitud></punto>
+                <punto><longitud>2.1527</longitud><latitud>41.3403</latitud><altitud>117</altitud></punto>
+                <punto><longitud>2.1525</longitud><latitud>41.3404</latitud><altitud>120</altitud></punto>
+                <punto><longitud>2.1525</longitud><latitud>41.3405</latitud><altitud>121</altitud></punto>
+                <punto><longitud>2.1523</longitud><latitud>41.3407</latitud><altitud>126</altitud></punto>
+                <punto><longitud>2.1521</longitud><latitud>41.3410</latitud><altitud>133</altitud></punto>
+                <punto><longitud>2.1521</longitud><latitud>41.3411</latitud><altitud>134</altitud></punto>
+                <punto><longitud>2.1521</longitud><latitud>41.3412</latitud><altitud>136</altitud></punto>
+                <punto><longitud>2.1522</longitud><latitud>41.3413</latitud><altitud>136</altitud></punto>
+                <punto><longitud>2.1523</longitud><latitud>41.3414</latitud><altitud>136</altitud></punto>
+                <punto><longitud>2.1540</longitud><latitud>41.3421</latitud><altitud>131</altitud></punto>
+            </puntos>
+        </puntoAnonimo>
+
+        <puntoAnonimo sector="Sector 3" distancia="1379">
+            <puntos>
+                <punto><longitud>2.1542</longitud><latitud>41.3421</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1543</longitud><latitud>41.3422</latitud><altitud>130</altitud></punto>
+                <punto><longitud>2.1543</longitud><latitud>41.3422</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1542</longitud><latitud>41.3423</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1541</longitud><latitud>41.3423</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1541</longitud><latitud>41.3422</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1540</longitud><latitud>41.3424</latitud><altitud>132</altitud></punto>
+                <punto><longitud>2.1539</longitud><latitud>41.3424</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1538</longitud><latitud>41.3423</latitud><altitud>133</altitud></punto>
+                <punto><longitud>2.1536</longitud><latitud>41.3423</latitud><altitud>135</altitud></punto>
+                <punto><longitud>2.1535</longitud><latitud>41.3422</latitud><altitud>137</altitud></punto>
+                <punto><longitud>2.1535</longitud><latitud>41.3422</latitud><altitud>135</altitud></punto>
+                <punto><longitud>2.1534</longitud><latitud>41.3422</latitud><altitud>138</altitud></punto>
+                <punto><longitud>2.1534</longitud><latitud>41.3422</latitud><altitud>138</altitud></punto>
+                <punto><longitud>2.1533</longitud><latitud>41.3422</latitud><altitud>140</altitud></punto>
+                <punto><longitud>2.1532</longitud><latitud>41.3422</latitud><altitud>140</altitud></punto>
+                <punto><longitud>2.1532</longitud><latitud>41.3423</latitud><altitud>141</altitud></punto>
+                <punto><longitud>2.1531</longitud><latitud>41.3424</latitud><altitud>141</altitud></punto>
+                <punto><longitud>2.1532</longitud><latitud>41.3424</latitud><altitud>141</altitud></punto>
+                <punto><longitud>2.1532</longitud><latitud>41.3425</latitud><altitud>142</altitud></punto>
+                <punto><longitud>2.1537</longitud><latitud>41.3428</latitud><altitud>139</altitud></punto>
+                <punto><longitud>2.1538</longitud><latitud>41.3428</latitud><altitud>138</altitud></punto>
+                <punto><longitud>2.1542</longitud><latitud>41.3426</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1543</longitud><latitud>41.3426</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1544</longitud><latitud>41.3427</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1545</longitud><latitud>41.3427</latitud><altitud>131</altitud></punto>
+                <punto><longitud>2.1547</longitud><latitud>41.3425</latitud><altitud>126</altitud></punto>
+                <punto><longitud>2.1548</longitud><latitud>41.3425</latitud><altitud>126</altitud></punto>
+                <punto><longitud>2.1549</longitud><latitud>41.3424</latitud><altitud>125</altitud></punto>
+                <punto><longitud>2.1549</longitud><latitud>41.3423</latitud><altitud>124</altitud></punto>
+                <punto><longitud>2.1549</longitud><latitud>41.3422</latitud><altitud>123</altitud></punto>
+                <punto><longitud>2.1524</longitud><latitud>41.3353</latitud><altitud>123</altitud></punto>
+            </puntos>
+        </puntoAnonimo>
+
+    </puntosAnonimos>
+
+    <ganador>
+        <nombrePiloto>Álex Márquez</nombrePiloto>
+        <tiempo>40:14.093</tiempo>
+    </ganador>
+
+    <clasificacion>
+        <primero>Álex Márquez</primero>
+        <segundo>Marc Márquez</segundo>
+        <tercero>Enea Bastianini</tercero>
+    </clasificacion>
+
+</circuito>

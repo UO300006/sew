@@ -1,0 +1,76 @@
+/*Iyán Díaz Pereda : UO300006*/
+
+/*Estilos generales del proyecto MotoGP-Desktop*/
+body {
+  color: #F48D06;
+  background-color: #101114;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+
+}
+
+header{
+  background-color: #F48D06;
+  /* Color de fondo heredado de body */
+}
+
+/*Especificidad: 001*/
+h1 {
+  color: #09090B;    
+  background-color:#F48D06; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;  
+     
+  }
+
+/* Selector: nav */
+/* Especificidad: 0,0,1 */
+nav{
+  color: #ffffff;
+  background-color: #F48D06;
+}
+
+/* Selector específico para el párrafo de migas de pan */
+header + p, body > p:first-of-type {
+  font-size: 0.85em;
+}
+
+/* Destacar el último término de la miga de pan */
+header + p strong, body > p:first-of-type strong {
+  color: #eca951;
+}
+
+/* Enlaces del header y nav */
+header nav a {
+  color: #fff;
+  text-decoration-line: none;
+  padding: 0.5em 1em;
+  transition: color 0.2s, background 0.2s;
+}
+
+/* Enlace activo */
+header nav a.active {
+  color: #101114;
+  background: #F48D06;
+  border-radius: 0.3em;
+}
+
+/* Hover y focus */
+header nav a:hover,
+header nav a:focus {
+  color: #F48D06;
+  background: #fff;
+  text-decoration-line: underline;
+}
+
+/* Estilo para enlaces visitados */
+a:visited {
+  color: #b3b3b3; 
+}
+
+main ul li a,
+main ul li a:visited {
+    color: #F48D06 ;
+}

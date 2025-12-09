@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Cronómetro</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="multimedia/big.ico" />
+    <script src="js/Cronometro.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MotoGP Desktop</h1>
+        <nav>
+            <a href="index.html" title="Inicio del proyecto MotoGP-Desktop">Inicio</a>
+            <a href="piloto.html" title="Información del piloto">Piloto</a>
+            <a href="circuito.html" title="Información del circuito">Circuito</a>
+            <a href="meteorologia.html" title="Información de la meteorologia">Meteorología</a>
+            <a href="clasificaciones.php" title="Información de las clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" class="active" title="Información de juegos">Juegos</a>
+            <a href="ayuda.html" title="Ayuda del proyecto MotoGp-Desktopo">Ayuda</a>
+        </nav>
+    </header>
+    <p>Estás en: <a href="index.html">Inicio</a> | <a href="juegos.html">Juegos</a> | <strong>Cronómetro</strong></p>
+    <main>
+        <p>00:00.0</p>
+        <button onclick="cronometro.arrancar()">Arrancar</button>
+        <button onclick="cronometro.parar()">Parar</button>
+        <button onclick="cronometro.reiniciar()">Reiniciar</button>
+    </main>
+    <script>
+        const cronometro = new Cronometro();
+    </script>
+</body>
+</html>

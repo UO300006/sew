@@ -1,0 +1,91 @@
+/* MotoGP-Desktop*/
+/* Hoja de estilo para el juego de memoria con cartas */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+}
+
+main > h2 {
+    grid-column: span 4;
+    text-align: center;
+}
+
+@media (max-width: 799px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+/* Regla con el estilo general para las tarjetas del juego */
+/* especificidad: 002 */
+main article {
+    width: 20vw;
+    height: 20em;
+    position: relative;
+    transform: scale(1);
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 0.1em 0.1em 0.1em rgba(0,0,0,.3);
+}
+
+/* Regla con la transformación que permite girar la carta cuando se le pone el atributo personalizado data-estado al valor volteada */
+/* especificidad: 012 */
+main article[data-estado=volteada] {
+    transform: rotateY(180deg);
+}
+
+/* Reglas con los estilos generales para el encabezado y la imagen de la carta */
+/* especificidad: 002 */
+/* especificidad: 002 */
+article h3,
+article img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0.5em;
+    background: #1C7CCC;
+    backface-visibility: hidden;
+}
+
+/* Regla para centrar el texto "Memory Card" vertical y horizontalmente en cada carta */
+/* especificidad: 002 */
+article h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Regla para rotar las imágenes y que se vean correctamente cuando se giran las cartas */
+/* especificidad: 002 */
+article img {
+    transform: rotateY(180deg);
+}
+
+/* Girar la carta si está volteada o revelada */
+main article[data-estado=volteada],
+main article[data-estado=revelada] {
+    transform: rotateY(180deg);
+}
+
+/* Mostrar imagen y ocultar el texto "Memory Card" */
+main article[data-estado=volteada] img,
+main article[data-estado=revelada] img {
+    display: block; /* Asegura que la imagen se vea */
+}
+
+main article[data-estado=volteada] h3,
+main article[data-estado=revelada] h3 {
+    display: none; /* Oculta el texto al girar */
+}
+
+/* Por defecto: carta boca abajo */
+article img {
+    display: none; /* Ocultar imagen hasta que se voltee o se revele */
+}

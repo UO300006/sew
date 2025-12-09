@@ -1,0 +1,80 @@
+/* FLEXBOX para header y nav */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+/* FLEXBOX para los enlaces del nav */
+header nav a {
+  display: flex;
+  align-items: center;
+}
+
+/* --- MEDIA QUERIES para adaptabilidad --- */
+@media (max-width: 799px) {
+  /* Redefinición de flex-direction en header y nav */
+  header { /* Redefinición */
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5em;
+  }
+  header nav { /* Redefinición */
+    flex-direction: column;
+    gap: 0.2em;
+  }
+  /* Ocultar migas de pan en móvil */
+  header + p, body > p:first-of-type {
+    display: none;
+  }
+  /* Video y audio adaptables */
+  video {
+    width: 100%;
+    height: auto;
+  }
+  audio {
+    width: 100%;
+  }
+}
+
+/* ------ Adaptabilidad móvil ------ */
+@media screen and (max-width: 600px) {
+    
+    body > div {
+        width: 100%;
+        height: 300px;      /* más pequeño en móvil */
+        margin: 0.5em 0;
+        border-width: 1px;
+    }
+}
+
+/* ----- Tamaño del mapa en pantallas normales ----- */
+
+body > div {
+    width: 100%;
+    height: 500px;
+    min-height: 300px;
+    margin: 1em 0;
+    border: 2px solid #333;
+}
+
+a {
+  color: #F48D06 ;
+}
+
+
